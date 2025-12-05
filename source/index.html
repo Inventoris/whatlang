@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Guess the language from street signs, store names and random inscriptions in cities">
+  <title>whatlang — guess the language from a picture</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="game">
+    <h1 class="game__title">whatlang?</h1>
+
+    <!-- ============================================================ -->
+    <!-- Game bar: Score, Record, Rounds selector, Rounds counter -->
+    <!-- ============================================================ -->
+    <div class="game__bar game-bar">
+      Score: <span id="score">0</span> • Record: <span id="record">0</span>
+      <select id="rounds-select" class="game-bar__rounds-select">
+        <option value="10">10 rounds</option>
+        <option value="20">20 rounds</option>
+        <option value="30">30 rounds</option>
+        <option value="0" selected>no limit</option>
+      </select>
+      <span id="rounds-counter" class="game-bar__rounds-counter">∞</span>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- Main image -->
+    <!-- ============================================================ -->
+    <img id="photo" class="game__image" src="" alt="A sign used for guessing the language">
+
+    <!-- ============================================================ -->
+    <!-- Answer options -->
+    <!-- ============================================================ -->
+    <ul class="game__answers game-answers">
+      <li class="game-answers__option">
+        <button class="game-answers__answer"></button>
+      </li>
+      <li class="game-answers__option">
+        <button class="game-answers__answer"></button>
+      </li>
+      <li class="game-answers__option">
+        <button class="game-answers__answer"></button>
+      </li>
+      <li class="game-answers__option">
+        <button class="game-answers__answer"></button>
+      </li>
+    </ul>
+
+    <!-- ============================================================ -->
+    <!-- Footer with result and next button -->
+    <!-- ============================================================ -->
+    <div id="game-footer" class="game__footer game-footer">
+      <div id="result" class="game-footer__result"></div>
+      <button id="next" class="game-footer__next-button">Next</button>
+    </div>
+  </main>
+
+  <!-- ============================================================ -->
+  <!-- Page footer -->
+  <!-- ============================================================ -->
+  <footer class="footer">
+    <a class="footer__author" href="https://github.com/Inventoris" target="_blank">Alexey Nikitchenko</a>
+    <p class="footer__inspired">
+      Inspired by <a href="https://openguessr.com/" target="_blank">OpenGuessr</a> and Web 1.0
+    </p>
+  </footer>
+
+  <script src="data/signs.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
