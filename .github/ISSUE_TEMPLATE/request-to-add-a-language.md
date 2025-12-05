@@ -1,7 +1,7 @@
 ---
-name: Add [name of the language] language
+name: Request to add a language
 about: Suggests adding a new language
-title: ''
+title: Add [name of the language] language
 labels: language wanted
 assignees: ''
 
