@@ -102,8 +102,9 @@ body {
   width: 100%;
   padding: 16px 12px;
   font-size: 1.15rem;
+  color: #000000;
   background: #f8f8f8;
-  border: 2px solid #000000;
+  border: 2px solid currentColor;
   cursor: pointer;
   font-family: inherit;
   appearance: none;
@@ -159,7 +160,7 @@ body {
   padding: 10px 32px;
   font-size: 1.2rem;
   background: #000080;
-  color: white;
+  color: #ffffff;
   border: 2px solid #000000;
   cursor: pointer;
   box-shadow: 3px 3px 0 #000000;
