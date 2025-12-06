@@ -12,7 +12,7 @@ const nextBtn = document.getElementById('next');
 const roundsSel = document.getElementById('rounds-select');
 const roundsCounter = document.getElementById('rounds-counter');
 
-recordEl.textContent = record;
+recordEl.value = record;
 
 let pool = [...signs].sort(() => Math.random() - 0.5);
 let index = 0;
@@ -24,7 +24,7 @@ let index = 0;
 function restartGame() {
   score = 0;
   used.clear();
-  scoreEl.textContent = 0;
+  scoreEl.value = 0;
 
   roundsLimit = parseInt(roundsSel.value, 10);
   roundsLeft = roundsLimit === 0 ? Infinity : roundsLimit;
@@ -77,18 +77,18 @@ function checkAnswer(ans, correct, btn) {
   if (ans === correct) {
     score++;
     used.add(correct);
-    scoreEl.textContent = score;
+    scoreEl.value = score;
     btn.classList.add('correct');
     resultEl.textContent = 'Correct!';
 
     if (score > record) {
       record = score;
-      recordEl.textContent = record;
+      recordEl.value = record;
       localStorage.setItem('whatlangRecord', record);
     }
   } else {
     score = 0;
-    scoreEl.textContent = 0;
+    scoreEl.value = 0;
     btn.classList.add('wrong');
     resultEl.innerHTML = `Wrong<br>This is <strong>${correct}</strong>`;
 
