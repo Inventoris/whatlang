@@ -1,19 +1,17 @@
 <p align="center">
-  <img width="1200" height="200" alt="image" src="https://github.com/user-attachments/assets/69d0581f-5693-449a-a412-b7ff0320b9ee" />
+  <img width="1750" height="298" alt="cover" src="https://github.com/user-attachments/assets/07498a97-262a-415c-8615-b8328d47317b" />
 </p>
 <p align="center">
-  Guess the language from street signs, store names and random inscriptions 🔣
+  Guess the language from street signs, store names and random inscriptions
 </p>
 
 ---
 
 ## What Is This Game?
 
-Guess the language from pictures of street signs, shop names, labels and other real-world inscriptions. Each language has three unique images — once you’ve passed a language, its images won’t repeat (until you make a mistake or the game starts over again).
+Guess the language from pictures of street signs, shop names, labels and other real-world inscriptions. Each round shows **one random image** representing a language and you get **four answer options** to choose from. If you correctly identify the language, that language (and its images) won’t appear again (until you make a mistake or the game starts over again).
 
-Right now the game includes 42 languages. All images are manually collected from [Google Street View](https://www.google.nl/intl/eng/streetview/).
-
-You can also choose how many rounds you want to play.
+Right now the game includes 40+ languages. All images are manually collected from [Google Street View](https://www.google.nl/intl/eng/streetview/).
 
 ## How It Works
 
