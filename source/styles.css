@@ -33,10 +33,20 @@ body {
 }
 
 .game__bar {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
   font-size: 1.1rem;
-  margin-bottom: 35px;
   color: #333333;
+  margin-bottom: 35px;
+}
+
+@media (max-width: 480px) {
+  .game__bar {
+    font-size: 1.15rem;
+    flex-direction: column;
+  }
 }
 
 .game-bar__rounds-select,
@@ -47,9 +57,9 @@ body {
   padding: 0 8px;
   line-height: 26px;
   border: 2px inset #dfdfdf;
+  border-radius: 0;
   display: inline-block;
   vertical-align: middle;
-  box-sizing: border-box;
 }
 
 .game-bar__rounds-select {
@@ -96,6 +106,15 @@ body {
   border: 2px solid #000000;
   cursor: pointer;
   font-family: inherit;
+  appearance: none;
+}
+
+@media (max-width: 480px) {
+  .game-answers__answer {
+    font-size: 1rem;
+    padding: 12px 10px;
+    border-width: 1px;
+  }
 }
 
 .game-answers__answer:hover {
@@ -145,6 +164,14 @@ body {
   cursor: pointer;
   box-shadow: 3px 3px 0 #000000;
   margin: 0;
+}
+
+@media (max-width: 480px) {
+  .game-footer__next-button {
+    font-size: 1.05rem;
+    padding: 10px 28px;
+    border-width: 1px;
+  }
 }
 
 .game-footer__next-button:hover,

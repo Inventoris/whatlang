@@ -115,9 +115,9 @@ const signs = [
   { img: "images/hungarian2.png", lang: "Hungarian", options: ["Hungarian", "Finnish", "Estonian", "Romanian"] },
   { img: "images/hungarian3.png", lang: "Hungarian", options: ["Hungarian", "Finnish", "Estonian", "Romanian"] },
 
-  { img: "images/slovakian1.png", lang: "Slovak", options: ["Slovak", "Czech", "Polish", "Slovenian"] },
-  { img: "images/slovakian2.png", lang: "Slovak", options: ["Slovak", "Czech", "Polish", "Slovenian"] },
-  { img: "images/slovakian3.png", lang: "Slovak", options: ["Slovak", "Czech", "Polish", "Slovenian"] },
+  { img: "images/slovak1.png", lang: "Slovak", options: ["Slovak", "Czech", "Polish", "Slovenian"] },
+  { img: "images/slovak2.png", lang: "Slovak", options: ["Slovak", "Czech", "Polish", "Slovenian"] },
+  { img: "images/slovak3.png", lang: "Slovak", options: ["Slovak", "Czech", "Polish", "Slovenian"] },
 
   { img: "images/czech1.png", lang: "Czech", options: ["Czech", "Slovak", "Polish", "Slovenian"] },
   { img: "images/czech2.png", lang: "Czech", options: ["Czech", "Slovak", "Polish", "Slovenian"] },

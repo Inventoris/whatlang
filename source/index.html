@@ -14,17 +14,21 @@
     <h1 class="game__title">whatlang?</h1>
 
     <!-- ============================================================ -->
-    <!-- Game bar: Score, Record, Rounds selector, Rounds counter -->
+    <!-- Game bar: Score, Record, Settings -->
     <!-- ============================================================ -->
     <div class="game__bar game-bar">
-      Score: <span id="score">0</span> • Record: <span id="record">0</span>
-      <select id="rounds-select" class="game-bar__rounds-select">
-        <option value="10">10 rounds</option>
-        <option value="20">20 rounds</option>
-        <option value="30">30 rounds</option>
-        <option value="0" selected>no limit</option>
-      </select>
-      <span id="rounds-counter" class="game-bar__rounds-counter">∞</span>
+      <div class="game-bar__points">
+        Score: <output id="score">0</output> • Record: <output id="record">0</output>
+      </div>
+      <div class="game-bar__settings">
+        <select id="rounds-select" class="game-bar__rounds-select">
+          <option value="10">10 rounds</option>
+          <option value="20">20 rounds</option>
+          <option value="30">30 rounds</option>
+          <option value="0" selected>no limit</option>
+        </select>
+        <span id="rounds-counter" class="game-bar__rounds-counter">∞</span>
+      </div>
     </div>
 
     <!-- ============================================================ -->
