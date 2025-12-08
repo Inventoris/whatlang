@@ -127,7 +127,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 24px;
+  padding: 14px 22px;
   margin-top: auto;
   border-top: 3px double #000080;
   background: #f0f0f0;
@@ -145,7 +145,7 @@ body {
 
 .game-footer__result {
   margin: 0;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: bold;
   color: #000080;
 }
