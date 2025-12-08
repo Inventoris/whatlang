@@ -14,7 +14,7 @@ const roundsCounter = document.getElementById('rounds-counter');
 
 recordEl.value = record;
 
-let pool = [...signs].sort(() => Math.random() - 0.5);
+let pool = [...questions].sort(() => Math.random() - 0.5);
 let index = 0;
 
 
@@ -32,7 +32,7 @@ function restartGame() {
   roundsCounter.textContent = roundsLimit === 0 ? '∞' : `1 / ${roundsLimit}`;
 
   index = 0;
-  pool = [...signs].sort(() => Math.random() - 0.5);
+  pool = [...questions].sort(() => Math.random() - 0.5);
 
   showQuestion();
 }
@@ -47,6 +47,7 @@ function showQuestion() {
 
   while (true) {
     q = pool[index++];
+
     if (index >= pool.length) index = 0;
 
     if (!used.has(q.lang)) break;
@@ -113,6 +114,7 @@ nextBtn.onclick = () => {
 
     if (roundsLeft <= 0) {
       restartGame();
+
       return;
     }
   }

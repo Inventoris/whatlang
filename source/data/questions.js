@@ -1,4 +1,4 @@
-const signs = [
+const questions = [
   { img: "images/russian1.png", lang: "Russian", options: ["Russian", "Ukrainian", "Belarusian", "Bulgarian"] },
   { img: "images/russian2.png", lang: "Russian", options: ["Russian", "Ukrainian", "Belarusian", "Bulgarian"] },
   { img: "images/russian3.png", lang: "Russian", options: ["Russian", "Ukrainian", "Belarusian", "Bulgarian"] },
