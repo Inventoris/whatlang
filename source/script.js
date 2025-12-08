@@ -66,6 +66,15 @@ function showQuestion() {
     btn.textContent = opts[i];
     btn.onclick = () => checkAnswer(opts[i], q.lang, btn);
   });
+
+  (function preloadNext() {
+    const next = pool[index];
+
+    if (!next) return;
+
+    const img = new Image();
+    img.src = next.img;
+  })();
 }
 
 
