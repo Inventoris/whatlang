@@ -150,4 +150,12 @@ const questions = [
   { img: "images/greek1.png", lang: "Greek", options: ["Greek", "Bulgarian", "Russian", "Georgian"] },
   { img: "images/greek2.png", lang: "Greek", options: ["Greek", "Bulgarian", "Russian", "Georgian"] },
   { img: "images/greek3.png", lang: "Greek", options: ["Greek", "Bulgarian", "Russian", "Georgian"] },
+
+  { img: "images/greenlandic1.png", lang: "Greenlandic", options: ["Greenlandic", "Icelandic", "Inuktitut", "Norwegian"] },
+  { img: "images/greenlandic2.png", lang: "Greenlandic", options: ["Greenlandic", "Icelandic", "Inuktitut", "Norwegian"] },
+  { img: "images/greenlandic3.png", lang: "Greenlandic", options: ["Greenlandic", "Icelandic", "Inuktitut", "Norwegian"] },
+
+  { img: "images/icelandic1.png", lang: "Icelandic", options: ["Icelandic", "Faroese", "Norwegian", "Danish"] },
+  { img: "images/icelandic2.png", lang: "Icelandic", options: ["Icelandic", "Faroese", "Norwegian", "Danish"] },
+  { img: "images/icelandic3.png", lang: "Icelandic", options: ["Icelandic", "Faroese", "Norwegian", "Danish"] },
 ];
